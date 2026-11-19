@@ -1,0 +1,10 @@
+citHeader("To cite the source data, consult the current CMA-SAREM citation guidance.")
+
+bibentry(
+  bibtype = "Manual",
+  title = "saremRanges: Experimental Access to CMA-SAREM Distribution Maps",
+  author = person("Agustina", "Novillo"),
+  year = "2026",
+  note = "Experimental version 0.2.0",
+  textVersion = "Novillo, A. (2026). saremRanges, version 0.2.0. Experimental version."
+)

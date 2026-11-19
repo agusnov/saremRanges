@@ -1,0 +1,25 @@
+Package: saremRanges
+Title: Access and Process SAREM Mammal Distribution Ranges
+Version: 0.2.0
+Authors@R: 
+    person("Agustina", "Novillo", role = c("aut", "cre"),
+           email = "agusnov7@gmail.com")
+Description: Provides experimental tools to query, filter, download, clean,
+    and export mammal distribution ranges and detailed species attributes from the Categorizacion de los
+    Mamiferos de Argentina (CMA-SAREM). The package distinguishes distribution
+    ranges from auxiliary map layers and returns spatial data as 'sf' objects.
+    Taxonomic and geographic filters accept multiple values, including
+    Argentine provinces and terrestrial ecoregions.
+    This is an experimental package developed independently of SAREM.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.2.0)
+Imports: cli, httr2, jsonlite, sf, utils
+Suggests: openxlsx, testthat (>= 3.0.0), withr
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-09-11 00:02:12 UTC; agustinanovillo
+Author: Agustina Novillo [aut, cre]
+Maintainer: Agustina Novillo <agusnov7@gmail.com>
